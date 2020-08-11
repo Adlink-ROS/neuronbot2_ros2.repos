@@ -10,7 +10,7 @@ repositories:
   neuronbot2:
     type: git
     url: https://github.com/Adlink-ROS/neuronbot2.git
-    version: foxy-devel
+    version: dashing-devel
 #  robot_localization:
 #    type: git
 #    url: https://github.com/Adlink-ROS/robot_localization.git
@@ -18,12 +18,12 @@ repositories:
   rplidar_ros:
     type: git
     url: https://github.com/Adlink-ROS/rplidar_ros.git
-    version: foxy-devel
+    version: dashing-devel
   serial:
     type: git
     url: https://github.com/Adlink-ROS/serial.git
-    version: foxy-devel
-#  slam_gmapping:
-#    type: git
-#    url: https://github.com/skylerpan/slam_gmapping.git
-#    version: master
+    version: master
+  slam_gmapping:
+    type: git
+    url: https://github.com/Adlink-ROS/slam_gmapping.git
+    version: dashing-devel
