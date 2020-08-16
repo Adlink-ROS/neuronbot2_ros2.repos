@@ -18,7 +18,7 @@ repositories:
   slam_gmapping:
     type: git
     url: https://github.com/Adlink-ROS/slam_gmapping.git
-    version: dashing-devel    
+    version: foxy-devel    
 #  joint_state_publisher:
 #    type: git
 #    url: https://github.com/Adlink-ROS/joint_state_publisher.git
