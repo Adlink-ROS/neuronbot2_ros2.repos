@@ -1,20 +1,12 @@
 repositories:
-#  BehaviorTree.CPP:
-#    type: git
-#    url: https://github.com/Adlink-ROS/BehaviorTree.CPP.git
-#    version: master
-#  joint_state_publisher:
-#    type: git
-#    url: https://github.com/Adlink-ROS/joint_state_publisher.git
-#    version: foxy
+  behavior_tree.cpp:
+    type: git
+    url: https://github.com/Adlink-ROS/BehaviorTree.CPP.git
+    version: master
   neuronbot2:
     type: git
     url: https://github.com/Adlink-ROS/neuronbot2.git
     version: eloquent-devel
-#  robot_localization:
-#    type: git
-#    url: https://github.com/Adlink-ROS/robot_localization.git
-#    version: eloquent-devel
   rplidar_ros:
     type: git
     url: https://github.com/Adlink-ROS/rplidar_ros.git
@@ -23,7 +15,15 @@ repositories:
     type: git
     url: https://github.com/Adlink-ROS/serial.git
     version: foxy-devel
-#  slam_gmapping:
+  slam_gmapping:
+    type: git
+    url: https://github.com/Adlink-ROS/slam_gmapping.git
+    version: dashing-devel    
+#  joint_state_publisher:
 #    type: git
-#    url: https://github.com/skylerpan/slam_gmapping.git
-#    version: master
+#    url: https://github.com/Adlink-ROS/joint_state_publisher.git
+#    version: foxy    
+#  robot_localization:
+#    type: git
+#    url: https://github.com/Adlink-ROS/robot_localization.git
+#    version: eloquent-devel
