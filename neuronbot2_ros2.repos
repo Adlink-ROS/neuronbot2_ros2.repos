@@ -2,7 +2,7 @@ repositories:
   neuronbot2:
     type: git
     url: https://github.com/Adlink-ROS/neuronbot2.git
-    version: foxy-devel
+    version: z_demo-apriltag
   rplidar_ros:
     type: git
     url: https://github.com/Adlink-ROS/rplidar_ros.git
@@ -23,3 +23,19 @@ repositories:
     type: git
     url: https://github.com/Adlink-ROS/nav2_behavior_tree.git
     version: adlink-patch
+  apriltag:
+    type: git
+    url: https://github.com/Adlink-ROS/apriltag.git
+    version: master
+  apriltag_ros:
+    type: git
+    url: https://github.com/Adlink-ROS/apriltag_ros.git
+    version: foxy-devel
+  apriltag_docking:
+    type: git
+    url: https://github.com/Adlink-ROS/apriltag_docking.git
+    version: foxy-devel
+  realsense-ros:
+    type: git
+    url: https://github.com/Adlink-ROS/realsense-ros.git
+    version: fix_ros2_launch_params
