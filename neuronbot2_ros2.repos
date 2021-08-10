@@ -19,3 +19,7 @@ repositories:
     type: git
     url: https://github.com/Adlink-ROS/robot_state_publisher.git
     version: ros2
+  aws-robomaker-small-warehouse-world:
+    type: git
+    url: https://github.com/Adlink-ROS/aws-robomaker-small-warehouse-world.git
+    version: foxy-devel
